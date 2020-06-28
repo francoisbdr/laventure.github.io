@@ -1,0 +1,164 @@
+@font-face {
+	font-family: "titre1";
+	src: url('assets/fonts/malibu.ttf');
+}
+
+@font-face {
+	font-family: "titre2";
+	src: url('assets/fonts/Tolyer_X_3D.ttf');
+}
+
+/* ========================= */
+
+/*      PODCAST HERO  		 */
+
+/* ========================= */
+
+.presentation2 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #110f16;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.presentation2:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	display: block; /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	/*
+	background-image: -webkit-linear-gradient(to top, transparent, #18151f);
+	background-image: -moz-linear-gradient(to top, transparent, #18151f);
+	background-image: -o-linear-gradient(to top, transparent, #18151f);
+	background-image: linear-gradient(to top, transparent, #18151f); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33000000', endColorstr='#00ffffff', GradientType=0); /* IE6-8 */
+}
+
+.presentation2:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+
+	display: block; /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	/*
+	background-image: -webkit-linear-gradient(to bottom, transparent, #110f16);
+	background-image: -moz-linear-gradient(to bottom, transparent, #110f16);
+	background-image: -o-linear-gradient(to bottom, transparent, #110f16);
+	background-image: linear-gradient(to bottom, transparent, #110f16); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33000000', endColorstr='#00ffffff', GradientType=0); /* IE6-8 */
+}
+
+.presentation2 .presentation2-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*
+	background-color: #110f16;
+	background-color: rgba(17, 15, 22, 0.5);
+	zoom: 1;
+	background-color: transparent\9;*/
+	/*
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80110f16, endColorstr=#80110f16)";
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80110f16, endColorstr=#80110f16);*/
+	z-index: 10;
+}
+
+.presentation2 .presentation2-inner > .container {
+	position: relative;
+	height: 100%;
+}
+
+.presentation2 .presentation2-content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 15px;
+	font-weight: 100;
+	z-index: 20;
+	color:#3e2722;
+	font-size: 20px;
+
+}
+
+.presentation2 .presentation2-content a {
+	color: #3e2722;
+}
+
+.presentation2 .presentation2-content h1 {
+	color: inherit;
+	font-size: 50px;
+	font-family: "titre1";
+	text-align: center;
+	
+}
+
+.presentation2 .presentation2-content h2 {
+	color: inherit;
+	font-size: 50px;
+	font-family: "titre2";
+	text-align: center;
+	
+}
+
+
+.presentation2 .presentation2-content .presentation2-date {
+	display: block;
+	margin-bottom: 10px;
+	color: #f1f1f1;
+}
+
+.presentation2 .presentation2-content .presentation2-title {
+	font-weight: 700;
+	font-size: 32px;
+	font-size: 3.2rem;
+}
+
+.presentation2 .presentation2-content .presentation2-meta .item {
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	*display: inline;
+	font-size: 16px;
+	font-size: 1.6rem;
+	list-style: none;
+	color: #2ecc71;
+}
+
+.presentation2 .presentation2-content .presentation2-meta .item + .item:before {
+	content: "//";
+	margin: 0 10px;
+}
+
+.presentation2 .presentation2-content .presentation2-meta .item a:hover,
+.presentation2 .presentation2-content .presentation2-meta .item a:focus {
+	color: #fff;
+}
+
+.presentation2 .presentation2-player-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+}
+
