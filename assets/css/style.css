@@ -1,11 +1,11 @@
 /*
 	Theme Name: Soundcast
-	Theme URI: http://www.reidark.com.br/themes/soundcast
-	Description: Soundcast - A clean, lightweight and responsive podcast theme.
+	Theme URI: 
+	Description: podcast website
 	Version: 1.0
-	Author: reidark
-	Author URI: www.reidark.com.br
-	Tags: soundcast
+	Author: fbdr
+	Author URI: 
+	Tags: L'aventure
 */
 
 /* RESET */
@@ -1445,6 +1445,8 @@ form .form-callback.error {
 	transition: all 0.2s ease-out;
 }
 
+
+
 .menu .menuitem .droplist {
 	background: #1d1925;
 }
@@ -2498,6 +2500,19 @@ form .form-callback.error {
 	background: none;
 }
 
+.menu .menuitem.brown > a {
+	position: relative;
+	display: block;
+	padding: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #3e2722;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
 .menu {
 	display: block !important;
 }
@@ -2588,13 +2603,15 @@ form .form-callback.error {
 	margin-top: 70px;
 }
 
+
+
 .menu {
 	position: absolute;
 	top: 100%;
 	left: 0;
 	width: 100%;
 	background: #110f16;
-	display: none;
+	/*display: none;*/
 }
 
 .menu .menuitem {
@@ -2796,4 +2813,3 @@ form .form-callback.error {
 }
 
 }
-
