@@ -14,7 +14,7 @@
 		<!-- 			  TITLE 			 	 -->
 		<!-- =================================== -->
 
-		<title> Podcast - L'aventure c'est l'aventure - E1</title>
+		<title>Podcast - Tous les épisodes </title>
 
 		<!-- =================================== -->
 		<!-- 			MORDERNIZR 			 	 -->
@@ -137,7 +137,7 @@
 					<!-- ===== MENU ===== -->
 					<ul class="menu">
 						<li class="menuitem"><a href="index.html">Accueil</a></li>
-						<li class="menuitem"><a href="podcasts.html">Tous les épisodes</a></li>
+						<li class="menuitem active"><a href="podcasts.html">Tous les épisodes</a></li>
 						<li class="menuitem"><a href="contact.html">Contact</a></li>
 					</ul>
 					<!-- ===== HAMBURGUER ICON ===== -->
@@ -147,87 +147,104 @@
 			</div>
 		</header>
 		
+		<!-- ===== LASTEST PODCAST (HERO) ===== -->
+		<section class="podcast-hero" style="background-image: url(assets/img/cards/podcast_3_cover.jpg)">
+			<div class="podcast-hero-inner">
+			
+				<!-- ===== PODCAST INFO ===== -->
+				<div class="container">
+						<div class="podcast-hero-content">
+						<span class="podcast-hero-date"> 1 juillet 2020 </span>
+						<h2 class="podcast-hero-title"><a href="podcast.html">Episode #03 - Vidéaste au service d’associations aux quatre coins du monde - Capucine</a></h2>
+
+												<div class="podcast-player">
+							<iframe src="https://w.soundcloud.com/player/?url=https://soundcloud.com/aventure_aventure/3-videaste-au-service-dassociations-aux-quatre-coins-du-monde-capucine&amp;color=110f16&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false"></iframe>
+						</div>
+
+						<ul class="podcast-hero-meta">
+							<li class="item"><a href="#" class="podcast-hero-tag" rel="tag">#tourdumonde #association #servir</a></li>
+							<li class="item"><i class="fa fa-clock-o"></i> 24 mins.</li>
+						</ul>
+					</div>
+
+				</div>
+				
+				
+			</div>
+		</section>
+		
 		<!-- ===== MAIN ===== -->
 		<main id="main" class="main">
 			
-			<!-- ===== PAGE HEADER ===== -->
-			<header class="page-header-podcast" style="background-image: url(assets/img/cards/podcast_1.jpg)">
-				<div class="page-header-inner">
-					<div class="container">
-
-
-
-						<!-- ===== PAGE HEADER CONTENT ===== -->
-						<div class="page-header-content text-center">
-							<h2>Episode #01</h2>
-							<p>En moto à travers les steppes mongoles - Basile</p>
-						</div>
-
-					</div>
-				</div>
-			</header>
-			
-			<!-- ===== PODCAST PLAYER ===== -->
-			<div class="podcast-player">
-				<iframe src="https://w.soundcloud.com/player/?url=https://soundcloud.com/aventure_aventure/1-en-moto-a-travers-les-steppes-mongoles-basile&amp;color=110f16&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false"></iframe>
-			</div>
-
-			
-			<!-- ===== PODCAST META ===== -->
-			<div class="podcast-meta-element">
-				<span class="podcast-meta-item"><i class="fa fa-calendar"></i> 1 juillet 2020</span>
-				<span class="podcast-meta-item"><i class="fa fa-clock-o"></i> 20 minutes</span>
-				<a class="podcast-meta-item"><i class="fa fa-tag"></i> #Mongolie #mongole #steppe #moto</a>
-			</div>
-			
-
-			<!-- ===== SINGLE PAGE CONTENT ===== -->
-			<div class="section-negative">
+			<!-- ===== PODCAST LIST ===== -->
+			<section id="#episodes" class="section-positive">
 				<div class="container">
 					
-					<!-- ===== PAGE CONTENT ===== -->
-					<div class="page-content mt-70">
-						
+					<!-- ===== SECTION TITLE ===== -->
+					<h2 class="title-default">Episodes</h2>
+					
+					<div class="row">
+					
+						<!-- ===== PODCAST CARD FULL ===== -->
+						<div class="col-sm-12 mb-40">
+							<div class="podcast-card full">
+								<figure class="podcast-image"><a href="podcast-soundcloud_3.html"><img src="assets/img/cards/podcast_3.jpg" alt="Seattle" title="Seattle" /></a></figure>
+								<div class="podcast-content">
+									<span class="podcast-date"> 1 juillet 2020 </span>
+									<h2 class="podcast-title"><a href="podcast-soundcloud_3.html">Episode #03 - Vidéaste au service d’associations aux quatre coins du monde - Capucine</a></h2>
 
-								<p> Dans ce premier épisode du podcast Basile nous embarque à moto à travers la Mongolie. Encore jeune étudiant, il est parti avec un ami avec seulement un billet aller/retour et un GPS avec la ferme intention d’acquérir des motos à Ulan Bator… ce qui se relèvera moins évident que prévu ! Il nous évoque le sens de l’hospitalité inégalable des nomades, sa découverte du lait de jument, ses plus belles descentes en moto dans les dunes de sable, le récit pas si différent de Marco Polo quelques siècles plus tôt, ou encore comment il a roulé des nuits durant pour ne pas louper son vol retour. </p>
-
-
-
-							<!-- ===== HR ===== -->
-							<hr />
-							
-							<!-- ===== PREV AND NEXT ===== -->
-							<div class="page-pagination">
-								<!-- ===== PREV ===== -->
-								<a href="#" class="page-pagination-prev">
-									<i class="fa fa-long-arrow-left"></i>
-									<span>An 0</span>
-									<p>Episode #00 - Pas d'episode précédent </p>
-								</a>
-								<!-- ===== NEXT ===== -->
-								<a href="podcast-soundcloud_2.html" class="page-pagination-next">
-									<i class="fa fa-long-arrow-right"></i>
-									<span>1 juillet 2020</span>
-									<p>Episode #02 - Le Grand Triathlon, 1400km à travers la France - Lilian</p>
-								</a>
+									<p class="podcast-excerpt"><a href="podcast-soundcloud_3.html">A la fin de ses études, Capucine rêve d’explorer le monde tout en se rendant utile. Bien convaincue que ces deux envies n’ont rien d’irréconciliable, elle décide se former à la vidéo avec une amie et se prépare pendant un an et demie à un tour du monde des associations. Durant leur périple de 6 mois les deux amies réalisent des vidéos de promotion pour des associations dédiées à l’éducation à destination des populations marginalisées. Elles aident ainsi 9 associations en Asie, Amérique du Sud et Afrique, et découvrent en profondeur des pays comme l’Argentine, Madagascar ou encore le Cambodge. Capucine dresse également un bilan de son aventure et nous décrit comment cette aventure a bouleversé sa carrière professionnelle à plus long terme. 
+									</a></p>
+									<ul class="podcast-meta">
+										<li class="item"><a href="#" class="podcast-tag" rel="tag">#tourdumonde #association #servir #vidéaste #éducation #ecole</a></li>
+										<li class="item"><i class="fa fa-clock-o"></i> 24 mins.</li>
+										<li class="item"><a href="podcast-soundcloud_3.html" class="podcast-play"><i class="fa fa-play"></i> Lecture </a></li>
+									</ul>
+								</div>
 							</div>
-							
-							<!-- ===== HR ===== -->
-							<hr />
-							
-
-							
-							<!-- ===== HR ===== -->
-							<hr />
-	
-							</div>
-							
 						</div>
+
+						<!-- ===== PODCAST CARD FULL ===== -->
+						<div class="col-sm-12 mb-40">
+							<div class="podcast-card full">
+								<figure class="podcast-image"><a href="podcast-soundcloud_2.html"><img src="assets/img/cards/podcast_2.jpg" alt="Biking" title="Biking" /></a></figure>
+								<div class="podcast-content">
+									<span class="podcast-date">1 juillet, 2020</span>
+									<h2 class="podcast-title"><a href="podcast-soundcloud_2.html">Episode #02 - Le Grand Triathlon, 1400km à travers la France - Lilian </a></h2>
+									<p class="podcast-excerpt"><a href="podcast-soundcloud_2.html"> En 2017, Lilian Dauzat s’est lancé le défi de traverser la France dans sa plus grande diagonale en triathlon en s’inspirant de l’Ironman. Bilan : 1165km à vélo, 235km à la course et 22km à la nage, durant deux semaines. Pourquoi se lancer dans un défi si titanesque ? Comment se préparer à ce triathlon quand on ne sait pas nager le crawl ? Comment parcourir un marathon chaque jour ? A quel moment a-t-il craqué ? Où trouver la motivation pour partir sur les routes à 5h du matin ?  Il nous parle aussi de sa passion pour l’aventure et nous invite à vivre des micro aventure durant notre vie quotidienne. Pour retrouver toutes ses expéditions, c’est ici : https://oneyearofadventures.com </a></p>
+									<ul class="podcast-meta">
+										<li class="item"><a href="#" class="podcast-tag" rel="tag">#triathlon #ironman #vélo #cyclisme #running</a></li>
+										<li class="item"><i class="fa fa-clock-o"></i> 23 mins.</li>
+										<li class="item"><a href="podcast-soundcloud_2.html" class="podcast-play"><i class="fa fa-play"></i> Lecture</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<!-- ===== PODCAST CARD FULL ===== -->
+						<div class="col-sm-12 mb-40">
+							<div class="podcast-card full">
+								<figure class="podcast-image"><a href="podcast-soundcloud_1.html"><img src="assets/img/cards/podcast_1.jpg" alt="Photography" title="Photography" /></a></figure>
+								<div class="podcast-content">
+									<span class="podcast-date"> 1 juillet, 2020 </span>
+									<h2 class="podcast-title"><a href="podcast-soundcloud_1.html">Episode #01 - En moto à travers les steppes mongoles - Basile</a></h2>
+									<p class="podcast-excerpt"><a href="podcast-soundcloud_1.html">Dans ce premier épisode du podcast Basile nous embarque à moto à travers la Mongolie. Encore jeune étudiant, il est parti avec un ami avec seulement un billet aller/retour et un GPS avec la ferme intention d’acquérir des motos à Ulan Bator… ce qui se relèvera moins évident que prévu ! Il nous évoque le sens de l’hospitalité inégalable des nomades, sa découverte du lait de jument, ses plus belles descentes en moto dans les dunes de sable, le récit pas si différent de Marco Polo quelques siècles plus tôt, ou encore comment il a roulé des nuits durant pour ne pas louper son vol retour. </a></p>
+									<ul class="podcast-meta">
+										<li class="item"><a href="#" class="podcast-tag" rel="tag">#Mongolie #steppe #moto</a></li>
+										<li class="item"><i class="fa fa-clock-o"></i> 21 mins.</li>
+										<li class="item"><a href="podcast-soundcloud_1.html" class="podcast-play"><i class="fa fa-play"></i> Lecture</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						
 						
 					</div>
 					
 				</div>
-			</div>
+			</section>
+			
 			
 		</main>
 		

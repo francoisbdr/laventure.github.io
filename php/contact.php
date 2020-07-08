@@ -16,7 +16,7 @@ if(get_magic_quotes_gpc()) {
 
 // Enter the email address that you want to emails to be sent to.
 // Change the address to your real email
-$address = "contact@yourdomain.com";
+$address = "aventure.cestlaventure@gmail.com";
 
 // This will be the "subject" of the email
 $e_subject = "Contact Form from $name";

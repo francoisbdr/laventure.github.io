@@ -14,7 +14,7 @@
 		<!-- 			  TITLE 			 	 -->
 		<!-- =================================== -->
 
-		<title> Podcast - L'aventure c'est l'aventure - E1</title>
+		<title>C'est l'aventure - Nous contacter</title>
 
 		<!-- =================================== -->
 		<!-- 			MORDERNIZR 			 	 -->
@@ -43,7 +43,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
 		
 		<!-- FONT AWESOME -->
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 		
 		<!-- =================================== -->
 		<!-- 		 	THEME COLOR 			 -->
@@ -70,17 +70,17 @@
 		<!-- 			  AUTHOR 				 -->
 		<!-- =================================== -->
 
-		<meta name="author" content="Francois BENOIT du REY" />
-		<meta name="reply-to" content="aventure.cestlaventure@gmail.com" />
-		<meta name="DC.publisher" content="fbdr" />
+		<meta name="author" content="reidark" />
+		<meta name="reply-to" content="support@reidark.com.br" />
+		<meta name="DC.publisher" content="reidark" />
 		<meta name="generator" content="Brackets" />
 
 		<!-- =================================== -->
 		<!-- 			 CONTENT 				 -->
 		<!-- =================================== -->
 
-		<meta name="keywords" content="podcast, aventure, recit, tour du monde, vélo, canoë, voile, randonnée, desert, astronomie, nature, sport" />
-		<meta name="description" content="Une chaine de podcast pour promouvoir l'aventure" />
+		<meta name="keywords" content="soundcast, html5 template, creative template, themeforest, podcast template, podcast theme" />
+		<meta name="description" content="A clean, lightweight and responsive podcast theme." />
 
 		<!-- =================================== -->
 		<!-- 			 ROBOTS 				 -->
@@ -98,21 +98,21 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="Soundcast" />
 		<meta property="og:description" content="Podcast Responsive Theme" />
-		<meta property="og:url" content="cestlaventure.com" />
-		<meta property="og:site_name" content="L'aventure c'est l'aventure" />
-		<meta property="og:image" content="assets/img/logo_final.png" />
+		<meta property="og:url" content="http://www.reidark.com.br/soundcast" />
+		<meta property="og:site_name" content="Soundcast" />
+		<meta property="og:image" content="http://www.reidark.com.br/soundcast/assets/img/facebook-og.jpg" />
 
 		<!-- =================================== -->
 		<!-- 			  TWITTER 				 -->
 		<!-- =================================== -->
 
 		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:site" content="http://cestlaventure.com" />
-		<meta name="twitter:creator" content="@laventure" />
-		<meta name="twitter:title" content="Podcast l'aventure c'est l'aventure" />
-		<meta name="twitter:description" content="Podcast" />
-		<meta name="twitter:domain" content="laventure.com" />
-		<meta name="twitter:image" content="assets/img/logo_final.png" />
+		<meta name="twitter:site" content="http://www.reidark.com.br/soundcast" />
+		<meta name="twitter:creator" content="@reidarking" />
+		<meta name="twitter:title" content="Soundcast" />
+		<meta name="twitter:description" content="Podcast Responsive Theme" />
+		<meta name="twitter:domain" content="reidark" />
+		<meta name="twitter:image" content="http://www.reidark.com.br/soundcast/assets/img/twitter-og.jpg" />
 
 		<!-- =================================== -->
 		<!-- 			  FAVICON 				 -->
@@ -138,7 +138,7 @@
 					<ul class="menu">
 						<li class="menuitem"><a href="index.html">Accueil</a></li>
 						<li class="menuitem"><a href="podcasts.html">Tous les épisodes</a></li>
-						<li class="menuitem"><a href="contact.html">Contact</a></li>
+						<li class="menuitem active"><a href="contact.html">Contact</a></li>
 					</ul>
 					<!-- ===== HAMBURGUER ICON ===== -->
 					<a href="#" class="btn-hamburguer-menu"><i class="fa fa-bars"></i></a>
@@ -149,89 +149,78 @@
 		
 		<!-- ===== MAIN ===== -->
 		<main id="main" class="main">
-			
+		
 			<!-- ===== PAGE HEADER ===== -->
-			<header class="page-header-podcast" style="background-image: url(assets/img/cards/podcast_1.jpg)">
+			<header class="page-header" style="background-image: url(assets/img/single-background.jpg)">
 				<div class="page-header-inner">
 					<div class="container">
 
 
-
 						<!-- ===== PAGE HEADER CONTENT ===== -->
 						<div class="page-header-content text-center">
-							<h2>Episode #01</h2>
-							<p>En moto à travers les steppes mongoles - Basile</p>
+							<h2>Contact</h2>
 						</div>
 
 					</div>
 				</div>
 			</header>
 			
-			<!-- ===== PODCAST PLAYER ===== -->
-			<div class="podcast-player">
-				<iframe src="https://w.soundcloud.com/player/?url=https://soundcloud.com/aventure_aventure/1-en-moto-a-travers-les-steppes-mongoles-basile&amp;color=110f16&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false"></iframe>
-			</div>
-
-			
-			<!-- ===== PODCAST META ===== -->
-			<div class="podcast-meta-element">
-				<span class="podcast-meta-item"><i class="fa fa-calendar"></i> 1 juillet 2020</span>
-				<span class="podcast-meta-item"><i class="fa fa-clock-o"></i> 20 minutes</span>
-				<a class="podcast-meta-item"><i class="fa fa-tag"></i> #Mongolie #mongole #steppe #moto</a>
-			</div>
-			
-
-			<!-- ===== SINGLE PAGE CONTENT ===== -->
-			<div class="section-negative">
+			<!-- ===== SECTION ===== -->
+			<section class="section-negative">
 				<div class="container">
 					
 					<!-- ===== PAGE CONTENT ===== -->
-					<div class="page-content mt-70">
-						
-
-								<p> Dans ce premier épisode du podcast Basile nous embarque à moto à travers la Mongolie. Encore jeune étudiant, il est parti avec un ami avec seulement un billet aller/retour et un GPS avec la ferme intention d’acquérir des motos à Ulan Bator… ce qui se relèvera moins évident que prévu ! Il nous évoque le sens de l’hospitalité inégalable des nomades, sa découverte du lait de jument, ses plus belles descentes en moto dans les dunes de sable, le récit pas si différent de Marco Polo quelques siècles plus tôt, ou encore comment il a roulé des nuits durant pour ne pas louper son vol retour. </p>
-
-
-
-							<!-- ===== HR ===== -->
-							<hr />
-							
-							<!-- ===== PREV AND NEXT ===== -->
-							<div class="page-pagination">
-								<!-- ===== PREV ===== -->
-								<a href="#" class="page-pagination-prev">
-									<i class="fa fa-long-arrow-left"></i>
-									<span>An 0</span>
-									<p>Episode #00 - Pas d'episode précédent </p>
-								</a>
-								<!-- ===== NEXT ===== -->
-								<a href="podcast-soundcloud_2.html" class="page-pagination-next">
-									<i class="fa fa-long-arrow-right"></i>
-									<span>1 juillet 2020</span>
-									<p>Episode #02 - Le Grand Triathlon, 1400km à travers la France - Lilian</p>
-								</a>
+					<div class="page-content mt-60">
+					
+						<!-- ===== PAGE TITLE & DESCRIPTION ===== -->
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 text-center">
+								<h2 class="title-default mb-10">Nous laisser un message</h2>
+								<p class="page-description mb-70"> Un temoignage à partager, un conseil à donner, une idée? C'est ici que ca se passe. N'hésite pas à nous écrire, nous te repondrons aussi vite que possible</p>
 							</div>
-							
-							<!-- ===== HR ===== -->
-							<hr />
-							
-
-							
-							<!-- ===== HR ===== -->
-							<hr />
-	
-							</div>
-							
 						</div>
 						
+						<!-- ===== FORM CONTACT ===== -->
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<form action="php/contact.php" method="POST" id="form-contact" class="form-contact form-validate">
+									<fieldset>
+										<div class="mb-20">
+											<label for="name" class="label-control">Nom* :</label>
+											<input type="text" name="name" class="form-control" id="name" required />
+										</div>
+										<div class="mb-20">
+											<label for="email" class="label-control">Email* :</label>
+											<input type="email" name="email" class="form-control" id="email" required />
+										</div>
+										<div class="mb-20">
+											<label for="subject" class="label-control">Sujet* :</label>
+											<input type="text" name="subject" class="form-control" id="subject" required />
+										</div>
+										<div class="mb-20">
+											<label for="message" class="label-control">Message* :</label>
+											<textarea name="message" id="message" rows="6" class="form-control" required></textarea>
+										</div>
+										<div class="mb-20 text-right">
+											<input type="submit" class="btn btn-success btn-lg" value="Submit" />
+										</div>
+										<div class="form-callback success">
+											<p> Excellent! Merci pour ton message</p>
+										</div>
+										<div class="form-callback error">
+											<p> Erreur! Il se passe quelque chose de bizarre</p>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
 					</div>
 					
 				</div>
-			</div>
+			</section>
 			
-		</main>
 		
-<!-- ===== FOOTER ===== -->
+		<!-- ===== FOOTER ===== -->
 		<footer class="footer">
 			
 			<!-- ===== FOOTER CONTENT INFORMATION ===== -->
@@ -255,11 +244,11 @@
 							<h2 class="title-separator white"> Episodes les plus récents</h2>
 							<ul class="footer-complement">
 								<li>
-									<a href="podcast-soundcloud_3.html">#03 - Vidéaste au service d’associations aux quatre coins du monde</a>
+									<a href="podcast.html">#03 - Vidéaste au service d’associations aux quatre coins du monde</a>
 									<span>1 juillet 2020</span>
 								</li>
 								<li>
-									<a href="podcast-soundcloud_2.html">#02 - Le Grand Triathlon, 1400km à travers la France</a>
+									<a href="podcast-soundcloud.html">#02 - Le Grand Triathlon, 1400km à travers la France</a>
 									<span>1 juillet 2020</span>
 								</li>
 							</ul>
@@ -305,6 +294,7 @@
 			</section>
 			
 		</footer>
+		
 		<!-- =================================== -->
 		<!-- 			  SCRIPTS 				 -->
 		<!-- =================================== -->

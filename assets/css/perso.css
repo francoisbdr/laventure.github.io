@@ -1,12 +1,4 @@
-@font-face {
-	font-family: "titre1";
-	src: url('assets/fonts/malibu.ttf');
-}
 
-@font-face {
-	font-family: "titre2";
-	src: url('assets/fonts/Tolyer_X_3D.ttf');
-}
 
 /* ========================= */
 
@@ -304,7 +296,7 @@
 
 .menu_2 .menuitem.active > a {
 	color: #2ecc71;
-
+}
 .menu_2 .menuitem > a {
 	padding: 12px 40px;
 }
